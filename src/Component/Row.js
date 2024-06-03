@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import instance from "../instance";
 import "../css/Row.css";
-// import { movies } from '../action'
+
 
 function Row({ isPoster, title, fetchurl }) {
   const baseurl = `https://image.tmdb.org/t/p/original/`;
