@@ -1,7 +1,6 @@
 // components/Banner.js
 import React, { useEffect, useState } from "react";
-import instance from "../instance";
-import request from "../Requst";
+import instance from "../instance"
 import "../css/Banner.css";
 
 function Banner({ fetchUrl }) {
